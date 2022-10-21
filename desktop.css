@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1570px) {
+
+.header{
+    background-image: url(./Assets/header-bg.png);
+}
+
+body{
+margin:0;
+
+}
+
+.list-nav{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.link-nav{
+    color:white;
+    font-size: 20px;
+    font-family: "sans serif";
+    text-decoration: none;
+}
+
+.item-nav{
+    margin: 10px;
+}
+
+.img-1{
+    width: 285px;
+    height: 458px;
+    margin: 41px;
+}
+
+.img-2{
+    width: 100%;
+    height: 401px;
+}
+
+
+.footer-list{
+    background-image: url(./Assets/darthvader.jpg);
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -24px;
+
+}
+
+footer{
+    background: #181818;
+    width: 100%;
+}
+
+.list-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.white-text{
+    color: #ada8a8;
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+
+
+
+.text-social{
+    color: #ada8a8;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.item-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.title-footer-light{
+    text-align: center;
+    padding: 30px;
+    color: #ada8a8;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.img-footer{
+    height: 280px;
+    width: 1519px;
+}
+
+.icons-social{
+    margin: 5px;
+}
+
+.desc{
+    width: 318px;
+    margin: 41px;
+}
+
+.boxOne{
+    display: flex;
+    top: 0;
+    margin: 20px 0px 0px 351px;
+}
+
+.title-boxOne{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.title{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.img3{
+    float: left;
+    shape-outside: url(./Assets/r2d2_c3p0.jpg);
+    margin: 0px 30px 0px 11px;
+}
+
+.textBox2, .text-item2{
+    font-size: sans-serif;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.content-desc{
+    width: 640px;
+    margin: 10px auto;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: 600;
+}
+
+.parallax {
+    background-image: url("./Assets/header.png");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+}
